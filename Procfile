@@ -1,1 +1,1 @@
-web:gunicorn eec4tbx.wsgi
+web: gunicorn eec4tbx.wsgi
