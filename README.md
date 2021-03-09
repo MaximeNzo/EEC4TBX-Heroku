@@ -1,1 +1,3 @@
-"# EEC4TBX-Heroku" 
+# EEC4TBX-Heroku
+
+Staging branch of the application
