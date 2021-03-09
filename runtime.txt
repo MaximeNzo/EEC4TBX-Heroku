@@ -1,1 +1,1 @@
-web:gunicorn eec4tbx.wsgi
+python-3.7.6
