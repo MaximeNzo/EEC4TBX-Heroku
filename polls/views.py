@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Creation of a MVC generated Page")
+    return HttpResponse("<h1>Creation of a MVC generated Page<h1>")
