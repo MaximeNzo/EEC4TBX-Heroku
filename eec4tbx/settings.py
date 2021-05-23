@@ -75,15 +75,7 @@ WSGI_APPLICATION = 'eec4tbx.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        'USER': 'ocmbhhfufqeafj';
-        'PASSWORD': 'f5339baa4de31426e888f2fa3c7cdec45443bb8b1fcb846ec8b029c42d1a2990';
-        'HOST': 'ec2-52-50-171-4.eu-west-1.compute.amazonaws.com';
-        'PORT': '5432';
-        'CONN_MAX_AGE': 500,
-    }
+    'default': dj_database_url.config(default='postgres://postgres://ocmbhhfufqeafj:f5339baa4de31426e888f2fa3c7cdec45443bb8b1fcb846ec8b029c42d1a2990@ec2-52-50-171-4.eu-west-1.compute.amazonaws.com:5432/ddak9u0l9e5s73')
 }
 
 
