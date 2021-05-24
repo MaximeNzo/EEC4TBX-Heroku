@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<!--Register--> 
+<div class="container py-5">
+	<h1>PAGE PRINCIPALE</h1>
+    {% if user.is_authenticated %}
+        <p>Welcome, {{user.last_name}} {{user.first_name}}</p>
+      {% endif %}
+</div>
+
+{% endblock %}
