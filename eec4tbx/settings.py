@@ -156,6 +156,6 @@ AUTHENTICATION_BACKENDS = {
 }
 
 
-LOGIN_URL = '/login/auth0'
-LOGIN_REDIRECT_URL = '/dashboard'
+LOGIN_URL = 'https://eec4tbx.herokuapp.com/login/auth0'
+LOGIN_REDIRECT_URL = 'https://eec4tbx.herokuapp.com/dashboard'
 
