@@ -21,7 +21,7 @@ def test(request):
     if user.is_authenticated:
         return redirect(dashboard)
     else:
-        return render(request, 'test.html')
+        return render(request, 'dashboard_EEC.html')
 
 @login_required
 def dashboard(request):
