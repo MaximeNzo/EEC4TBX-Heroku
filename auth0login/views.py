@@ -13,7 +13,7 @@ def index(request):
     if user.is_authenticated:
         return redirect(dashboard)
     else:
-        return render(request, 'index.html')
+        return render(request, 'dashboard_EEC.html')
 
         
 def test(request):

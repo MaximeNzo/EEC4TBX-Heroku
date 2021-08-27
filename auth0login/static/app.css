@@ -199,27 +199,24 @@ svg {
 
 body {
   font: 16px/1.5 "Lato", sans-serif;
+  position: relative;
 }
 
 
 /* HEADER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: auto;
+  height: 100%;
   padding-top: 20px;
   width: var(--page-header-width);
   color: var(--page-header-txtColor);
   background: var(--page-header-bgColor);
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-
+  height: 100%;
+  margin: 0;
 }
-
 /*In case you prefer an absolutely positioned header that covers the full page height, add these styles*/
 /*body {
   position: relative;

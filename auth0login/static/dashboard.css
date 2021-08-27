@@ -71,18 +71,17 @@ svg {
 
 body {
   font: 16px/1.5 "Lato", sans-serif;
+  position: relative;
 }
 
 
 /* HEADER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: auto;
+  height: 100%;
   padding-top: 20px;
   width: var(--page-header-width);
   color: var(--page-header-txtColor);
