@@ -40,6 +40,8 @@ input[type=radio]:focus + label:before,
 input[type=checkbox]:focus + label:before {
   outline: 0;
 }
+
+
 .btn {
   font-size: 140%;
   text-transform: uppercase;
@@ -52,8 +54,9 @@ input[type=checkbox]:focus + label:before {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 1rem;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 .btn:hover {
   background-color: #44C7F4;
@@ -106,6 +109,8 @@ label {
   text-align: center;
   width: 50%;
   margin: auto;
+  margin-top:30%;
+  padding: 2rem;
 }
 
 .login-box a {
@@ -210,6 +215,9 @@ body {
   width: var(--page-header-width);
   color: var(--page-header-txtColor);
   background: var(--page-header-bgColor);
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+
 }
 
 /*In case you prefer an absolutely positioned header that covers the full page height, add these styles*/
